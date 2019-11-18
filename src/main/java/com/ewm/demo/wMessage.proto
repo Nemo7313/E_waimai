@@ -1,0 +1,6 @@
+syntax = "proto2";
+package com.ewm.demo;
+message IMessage {
+    required int32 req_vode = 1;
+    required string msg = 2 ;
+}
