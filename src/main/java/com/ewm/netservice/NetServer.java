@@ -88,5 +88,6 @@ public class NetServer implements INetService{
     public static void main(String[] args) {
         NetServer server = new NetServer(5566);
         new Thread(server).start();
+        System.out.println("外卖服务器启动成功！");
     }
 }
