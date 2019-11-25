@@ -61,11 +61,24 @@ public class WMService implements Runnable {
         WMService wmService = new WMService();
         new Thread(wmService).start();
         System.out.println("test Git!!!");
+        System.out.println("我是曲蔓");
+
+
+        System.out.println("yughiuhij");
+
+
+
+
         System.out.println("test Git？？？？？？？？？？？？？？？？？？？++++");
         while(true) {
             String newMsg = sc.nextLine();
             Message message = new Message(newMsg);
             sendMessage(message);
         }
+    }
+
+
+    public  void test(){
+        System.out.println("aslalj");
     }
 }
